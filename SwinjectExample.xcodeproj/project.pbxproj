@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,24 @@
 		F4869F2B25D08CA90041C03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4869F2925D08CA90041C03C /* Main.storyboard */; };
 		F4869F2D25D08CAD0041C03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4869F2C25D08CAD0041C03C /* Assets.xcassets */; };
 		F4869F3025D08CAD0041C03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4869F2E25D08CAD0041C03C /* LaunchScreen.storyboard */; };
+		F4869F4425D0928E0041C03C /* PremiumServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F4325D0928E0041C03C /* PremiumServiceProtocol.swift */; };
+		F4869F4825D092BB0041C03C /* PremiumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F4725D092BB0041C03C /* PremiumService.swift */; };
+		F4869F4C25D092F40041C03C /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F4B25D092F40041C03C /* NetworkServiceProtocol.swift */; };
+		F4869F5025D0943D0041C03C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F4F25D0943D0041C03C /* NetworkService.swift */; };
+		F4869F5325D096900041C03C /* SocialServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F5225D096900041C03C /* SocialServiceProtocol.swift */; };
+		F4869F5625D097190041C03C /* SocialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F5525D097180041C03C /* SocialService.swift */; };
+		F4869F5925D097830041C03C /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F5825D097830041C03C /* Social.swift */; };
+		F4869F5C25D097900041C03C /* Premium.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F5B25D097900041C03C /* Premium.swift */; };
+		F4869F6025D099420041C03C /* RemoteConfigProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F5F25D099420041C03C /* RemoteConfigProtocol.swift */; };
+		F4869F6425D099A00041C03C /* ActiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F6325D099A00041C03C /* ActiveScreen.swift */; };
+		F4869F6725D09A1E0041C03C /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F6625D09A1E0041C03C /* RemoteConfig.swift */; };
+		F4869F7125D09B230041C03C /* RootModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F7025D09B230041C03C /* RootModuleFactoryProtocol.swift */; };
+		F4869F7525D09B670041C03C /* RedModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F7425D09B670041C03C /* RedModuleFactoryProtocol.swift */; };
+		F4869F7825D09B760041C03C /* GreenModuleFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F7725D09B760041C03C /* GreenModuleFactoryProtocol.swift */; };
+		F4869F7C25D09B900041C03C /* RootModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F7B25D09B900041C03C /* RootModuleFactory.swift */; };
+		F4869F8025D09BDE0041C03C /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F7F25D09BDE0041C03C /* ModuleFactory.swift */; };
+		F4869F8425D09CB10041C03C /* RedModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F8325D09CB10041C03C /* RedModuleFactory.swift */; };
+		F4869F8725D09DC60041C03C /* GreenModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4869F8625D09DC60041C03C /* GreenModuleFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +46,24 @@
 		F4869F2C25D08CAD0041C03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4869F2F25D08CAD0041C03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4869F3125D08CAD0041C03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4869F4325D0928E0041C03C /* PremiumServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumServiceProtocol.swift; sourceTree = "<group>"; };
+		F4869F4725D092BB0041C03C /* PremiumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumService.swift; sourceTree = "<group>"; };
+		F4869F4B25D092F40041C03C /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		F4869F4F25D0943D0041C03C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F4869F5225D096900041C03C /* SocialServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialServiceProtocol.swift; sourceTree = "<group>"; };
+		F4869F5525D097180041C03C /* SocialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialService.swift; sourceTree = "<group>"; };
+		F4869F5825D097830041C03C /* Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
+		F4869F5B25D097900041C03C /* Premium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Premium.swift; sourceTree = "<group>"; };
+		F4869F5F25D099420041C03C /* RemoteConfigProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigProtocol.swift; sourceTree = "<group>"; };
+		F4869F6325D099A00041C03C /* ActiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveScreen.swift; sourceTree = "<group>"; };
+		F4869F6625D09A1E0041C03C /* RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfig.swift; sourceTree = "<group>"; };
+		F4869F7025D09B230041C03C /* RootModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		F4869F7425D09B670041C03C /* RedModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		F4869F7725D09B760041C03C /* GreenModuleFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenModuleFactoryProtocol.swift; sourceTree = "<group>"; };
+		F4869F7B25D09B900041C03C /* RootModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootModuleFactory.swift; sourceTree = "<group>"; };
+		F4869F7F25D09BDE0041C03C /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		F4869F8325D09CB10041C03C /* RedModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedModuleFactory.swift; sourceTree = "<group>"; };
+		F4869F8625D09DC60041C03C /* GreenModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenModuleFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +84,6 @@
 				4D17838E04A3BBD6E9FBAE6C /* Pods-SwinjectExample.debug.xcconfig */,
 				1DA7919CBB949FA76771FDF6 /* Pods-SwinjectExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +108,10 @@
 		F4869F2225D08CA90041C03C /* SwinjectExample */ = {
 			isa = PBXGroup;
 			children = (
+				F4869F6925D09AEF0041C03C /* Modules */,
+				F4869F6225D0998C0041C03C /* Models */,
+				F4869F4025D0924D0041C03C /* Providers */,
+				F4869F3F25D092450041C03C /* Services */,
 				F4869F2325D08CA90041C03C /* AppDelegate.swift */,
 				F4869F2525D08CA90041C03C /* SceneDelegate.swift */,
 				F4869F2725D08CA90041C03C /* ViewController.swift */,
@@ -82,6 +121,132 @@
 				F4869F3125D08CAD0041C03C /* Info.plist */,
 			);
 			path = SwinjectExample;
+			sourceTree = "<group>";
+		};
+		F4869F3F25D092450041C03C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F5E25D098DB0041C03C /* RemoteConfig */,
+				F4869F4A25D092E30041C03C /* Network */,
+				F4869F4225D092750041C03C /* Premium */,
+				F4869F4125D092660041C03C /* Social */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F4869F4025D0924D0041C03C /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F5825D097830041C03C /* Social.swift */,
+				F4869F5B25D097900041C03C /* Premium.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		F4869F4125D092660041C03C /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F5225D096900041C03C /* SocialServiceProtocol.swift */,
+				F4869F5525D097180041C03C /* SocialService.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		F4869F4225D092750041C03C /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F4325D0928E0041C03C /* PremiumServiceProtocol.swift */,
+				F4869F4725D092BB0041C03C /* PremiumService.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		F4869F4A25D092E30041C03C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F4B25D092F40041C03C /* NetworkServiceProtocol.swift */,
+				F4869F4F25D0943D0041C03C /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4869F5E25D098DB0041C03C /* RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F5F25D099420041C03C /* RemoteConfigProtocol.swift */,
+				F4869F6625D09A1E0041C03C /* RemoteConfig.swift */,
+			);
+			path = RemoteConfig;
+			sourceTree = "<group>";
+		};
+		F4869F6225D0998C0041C03C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F6325D099A00041C03C /* ActiveScreen.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4869F6925D09AEF0041C03C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F6C25D09AFD0041C03C /* Green */,
+				F4869F6B25D09AF80041C03C /* Red */,
+				F4869F6A25D09AF40041C03C /* Root */,
+				F4869F7F25D09BDE0041C03C /* ModuleFactory.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F4869F6A25D09AF40041C03C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F6D25D09B090041C03C /* Factory */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F4869F6B25D09AF80041C03C /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F6E25D09B0D0041C03C /* Factory */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		F4869F6C25D09AFD0041C03C /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F6F25D09B120041C03C /* Factory */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		F4869F6D25D09B090041C03C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F7025D09B230041C03C /* RootModuleFactoryProtocol.swift */,
+				F4869F7B25D09B900041C03C /* RootModuleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		F4869F6E25D09B0D0041C03C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F7425D09B670041C03C /* RedModuleFactoryProtocol.swift */,
+				F4869F8325D09CB10041C03C /* RedModuleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		F4869F6F25D09B120041C03C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F4869F7725D09B760041C03C /* GreenModuleFactoryProtocol.swift */,
+				F4869F8625D09DC60041C03C /* GreenModuleFactory.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 		FF86F75419E42FC3C0268457 /* Frameworks */ = {
@@ -206,9 +371,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4869F8725D09DC60041C03C /* GreenModuleFactory.swift in Sources */,
+				F4869F5925D097830041C03C /* Social.swift in Sources */,
+				F4869F7125D09B230041C03C /* RootModuleFactoryProtocol.swift in Sources */,
+				F4869F6025D099420041C03C /* RemoteConfigProtocol.swift in Sources */,
+				F4869F8025D09BDE0041C03C /* ModuleFactory.swift in Sources */,
 				F4869F2825D08CA90041C03C /* ViewController.swift in Sources */,
+				F4869F7525D09B670041C03C /* RedModuleFactoryProtocol.swift in Sources */,
+				F4869F4425D0928E0041C03C /* PremiumServiceProtocol.swift in Sources */,
+				F4869F4C25D092F40041C03C /* NetworkServiceProtocol.swift in Sources */,
 				F4869F2425D08CA90041C03C /* AppDelegate.swift in Sources */,
+				F4869F7C25D09B900041C03C /* RootModuleFactory.swift in Sources */,
+				F4869F5325D096900041C03C /* SocialServiceProtocol.swift in Sources */,
+				F4869F4825D092BB0041C03C /* PremiumService.swift in Sources */,
+				F4869F5625D097190041C03C /* SocialService.swift in Sources */,
+				F4869F7825D09B760041C03C /* GreenModuleFactoryProtocol.swift in Sources */,
 				F4869F2625D08CA90041C03C /* SceneDelegate.swift in Sources */,
+				F4869F5025D0943D0041C03C /* NetworkService.swift in Sources */,
+				F4869F6425D099A00041C03C /* ActiveScreen.swift in Sources */,
+				F4869F5C25D097900041C03C /* Premium.swift in Sources */,
+				F4869F8425D09CB10041C03C /* RedModuleFactory.swift in Sources */,
+				F4869F6725D09A1E0041C03C /* RemoteConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
